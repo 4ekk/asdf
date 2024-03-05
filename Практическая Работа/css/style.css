@@ -1,0 +1,62 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    background-color: #0A64A4	;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 2000px;
+    padding: 0 100px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    background-color: #006a55;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.logo img {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+nav ul  {
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #b1f180;
+    font-size: 18px;
+}
+
+.auth button {
+    outline: none;
+    border: none;
+    background-color: #b1f180;
+    color: azure;
+    border-radius: 15px;
+    padding: 25px;
+}
